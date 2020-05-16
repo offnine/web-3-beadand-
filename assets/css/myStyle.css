@@ -1,0 +1,45 @@
+:root{
+                
+                --BlueColor1:#0099ff;
+                --BlueColor2:#001756;
+                --tableBG1: #d2d3d8;
+                --tableBG2: #f2f3f9;
+            }
+            table{
+                width:100%;
+                background-image:linear-gradient(to top, var(--tableBG1), var(--tableBG2))
+            }
+            .table-cars{
+                width:100%;
+                position:relative;
+                top:100px;
+                border: 1px solid black;
+            }
+            .header{
+                width: 100%;
+                position: fixed;
+                top:0px;
+                height: 100px;
+                border: 2px solid black;
+                background-image: linear-gradient(to left, var(--BlueColor1), var(--BlueColor2));
+                color:white;
+                font-size: 60px;
+            }
+            .head-title{
+                font-size: 30px;
+                background-color: var(--BlueColor2);
+                height: 50px;
+                color:white;
+            }
+            .head-add{
+                font-size: 15px;
+                background-color: var(--BlueColor2);
+                height: 50px;
+                color:white;
+            }
+            .car{
+                width: 300px;
+            }
+            .car-big{
+                width: 900px;
+            }
